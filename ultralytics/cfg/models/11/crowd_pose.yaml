@@ -1,0 +1,23 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+# COCO 2017 Keypoints dataset https://cocodataset.org by Microsoft
+# Documentation: https://docs.ultralytics.com/datasets/pose/coco/
+# Example usage: yolo train data=coco-pose.yaml
+# parent
+# ├── ultralytics
+# └── datasets
+#     └── coco-pose  ← downloads here (20.1 GB)
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:\useful code\CrowdPose-20251012T151616Z-1-001\CrowdPose\yolo_format # dataset root dir
+train: images/train # train images (relative to 'path') 56599 images
+val: images/val # val images (relative to 'path') 2346 images
+
+# Keypoints
+kpt_shape: [14, 3] # number of keypoints, number of dims (2 for x,y or 3 for x,y,visible)
+
+flip_idx: [1, 0, 3, 2, 5, 4, 7, 6, 9, 8, 11, 10, 12, 13]
+
+# Classes
+names:
+  0: person
