@@ -11,7 +11,7 @@ from ultralytics import YOLO
 
 
 if __name__ == '__main__':
-    model = YOLO('yolo11m_asff_c3k2-mseis.yaml')
+    model = YOLO('yolo11s_asff_c3k2-mseis.yaml')
     #model = YOLO('runs/train/excavator-test-mosaic_yolo11s_asff_c3k2_mseis/weights/last.pt')
     model.train(data='excavator-test-mosaic.yaml',
                 cache=False,
