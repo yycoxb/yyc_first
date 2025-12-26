@@ -140,7 +140,7 @@ dmypy.json
 datasets/
 runs/
 wandb/
-tests/
+#tests/
 logs/
 .DS_Store
 
