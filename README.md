@@ -5,7 +5,7 @@
 
 - Name: Excavator public dataset (Roboflow Universe)
 - Baidu Netdisk: https://pan.baidu.com/s/1kAVjw6XXsCAdvjYGTgB9GA?pwd=1967
-- If you cannot directly download the preprocessed public datasets, the data preprocessing methods for public datasets are described in (data preprocessing of public datasets).
+- If you cannot directly download the preprocessed public datasets, the data preprocessing methods for public datasets are described in (data-preprocessing).
 
 
 
