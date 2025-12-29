@@ -9,7 +9,8 @@
 
 
 
-- @misc{
+- We are grateful for the support from the following public datasets in this work.
+  @misc{
                             excavator-98nk5_dataset,
                             title = { excavator Dataset },
                             type = { Open Source Dataset },
