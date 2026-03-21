@@ -1,4 +1,4 @@
-# CAMSE-YOLO
+# ECF-YOLO
 
 
 ## Public Dataset (for paper reproduction)
